@@ -26,11 +26,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Yarn
-        run: npm install -g npm@latest yarn@latest
+        run: npm install -g yarn@latest
 
       - name: Install Dependencies
         run: yarn
-      
+
       - name: build types
         run: yarn build:types
 
