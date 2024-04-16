@@ -30,3 +30,6 @@ export const ZIP_1: any;
 export const ZIP_2: any;
 export const WEBP: any;
 export const SVG: any;
+export const HtmlCommentRegex: RegExp;
+export const SvgRegex: RegExp;
+export const ScriptRegex: RegExp;

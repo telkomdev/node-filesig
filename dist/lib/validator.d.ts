@@ -27,4 +27,4 @@ export function isRar(buffer: any): boolean | Error;
 export function isGzip(buffer: any): boolean | Error;
 export function isZip(buffer: any): boolean;
 export function isWebp(buffer: any): boolean | Error;
-export function isSvg(buffer: any): boolean | Error;
+export function isSvg(buffer: any): boolean;
