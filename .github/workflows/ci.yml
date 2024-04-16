@@ -36,7 +36,7 @@ jobs:
 
       - name: Get sample files
         run: |-
-          mkdir tmp \
+          mkdir -p tmp \
             && curl -H 'Cache-Control: no-cache' -sLko tmp/sample-0.mp3 https://filesamples.com/samples/audio/mp3/sample3.mp3 \
             && curl -H 'Cache-Control: no-cache' -sLko tmp/sample-0.wav https://freewavesamples.com/files/Ensoniq-ZR-76-01-Dope-77.wav \
             && curl -H 'Cache-Control: no-cache' -sLko tmp/sample-0.ogg https://upload.wikimedia.org/wikipedia/commons/c/c8/Example.ogg \
